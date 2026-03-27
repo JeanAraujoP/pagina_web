@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MecaCore – Piezas Mecatrónicas</title>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800&family=Barlow+Condensed:wght@600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<nav>
+  <div class="nav-top">
+    <a href="#" class="logo">
+      <div class="logo-icon">M</div>
+      <div class="logo-text">
+        <strong>MecaCore</strong>
+        <span>Piezas Mecatrónicas</span>
+      </div>
+    </a>
+
+    <div class="search-bar">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/>
+      </svg>
+      <input type="text" placeholder="Buscar productos..."/>
+    </div>
+
+    <div class="nav-actions">
+      <button class="btn-cart">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/>
+          <path d="M16 10a4 4 0 01-8 0"/>
+        </svg>
+        <span class="cart-badge">0</span>
+      </button>
+      <a href="#" class="btn-login">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/>
+        </svg>
+        Iniciar Sesión
+      </a>
+    </div>
+  </div>
+
+  <div class="nav-links">
+    <a href="#" class="active">Inicio</a>
+    <a href="#">Categorías</a>
+    <a href="#">Productos</a>
+    <a href="#">Ayuda</a>
+  </div>
+</nav>
+
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <div class="hero-content">
+    <h1>Componentes Mecatrónicos de Alta Calidad</h1>
+    <p>Encuentra todo lo que necesitas para tus proyectos industriales y de automatización. Servomotores, sensores, controladores y más.</p>
+    <div class="hero-btns">
+      <a href="#" class="btn-primary">
+        Ver Productos
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+      <a href="#" class="btn-secondary">Contactar con soporte</a>
+    </div>
+  </div>
+  <div class="hero-image">
+    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop" alt="Componentes mecatrónicos"/>
+  </div>
+</section>
+
+<!-- ===== TRUST BAR ===== -->
+<div class="trust-bar">
+  <div class="trust-item">
+    <div class="trust-icon">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+      </svg>
+    </div>
+    <div>
+      <strong>Garantía de Calidad</strong>
+      <p>Productos verificados y certificados</p>
+    </div>
+  </div>
+  <div class="trust-item">
+    <div class="trust-icon">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/>
+        <circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/>
+      </svg>
+    </div>
+    <div>
+      <strong>Envío Rápido</strong>
+      <p>Entrega en 24-48h en España</p>
+    </div>
+  </div>
+  <div class="trust-item">
+    <div class="trust-icon">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.59 10.09 19.79 19.79 0 01.5 1.4 2 2 0 012.49-.01h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.18 6.18l1.38-1.38a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>
+      </svg>
+    </div>
+    <div>
+      <strong>Soporte Técnico</strong>
+      <p>Asesoramiento de expertos</p>
+    </div>
+  </div>
+  <div class="trust-item">
+    <div class="trust-icon">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/>
+      </svg>
+    </div>
+    <div>
+      <strong>+10 Años de Experiencia</strong>
+      <p>Líderes en el sector industrial</p>
+    </div>
+  </div>
+</div>
+
+<!-- ===== PRODUCTOS DESTACADOS ===== -->
+<section class="section" id="destacados">
+  <div class="section-header">
+    <div>
+      <h2>Productos Destacados</h2>
+      <p>Los mejores componentes seleccionados para ti</p>
+    </div>
+    <a href="#" class="btn-ver-todos">Ver todos →</a>
+  </div>
+
+  <div class="product-grid">
+    <div class="product-card">
+      <div class="product-img">
+        <img src="" alt="Servomotor Industrial AC 3kW"/>
+        <div class="badges">
+          <span class="badge badge-featured">⭐ Destacado</span>
+        </div>
+      </div>
+      <div class="product-info">
+        <h3>Servomotor Industrial AC 3kW</h3>
+        <p>Servomotor de corriente alterna de alta eficiencia con encoder absoluto de 20 bits</p>
+        <div class="product-price">$1299.99 <span>IVA inc.</span></div>
+        <button class="btn-add-cart" onclick="addToCart(this)">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/>
+            <path d="M16 10a4 4 0 01-8 0"/>
+          </svg>
+          Añadir al carrito
+        </button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="product-img">
+        <img src="" alt="Servomotor DC Brushless 1.5kW"/>
+        <div class="badges">
+          <span class="badge badge-new">Nuevo</span>
+          <span class="badge badge-featured">⭐ Destacado</span>
+        </div>
+      </div>
+      <div class="product-info">
+        <h3>Servomotor DC Brushless 1.5kW</h3>
+        <p>Motor sin escobillas de alta durabilidad para aplicaciones industriales</p>
+        <div class="product-price">$899.99 <span>IVA inc.</span></div>
+        <button class="btn-add-cart" onclick="addToCart(this)">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/>
+            <path d="M16 10a4 4 0 01-8 0"/>
+          </svg>
+          Añadir al carrito
+        </button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="product-img">
+        <img src="" alt="Sensor de Proximidad Inductivo M18"/>
+        <div class="badges">
+          <span class="badge badge-featured">⭐ Destacado</span>
+        </div>
+      </div>
+      <div class="product-info">
+        <h3>Sensor de Proximidad Inductivo M18</h3>
+        <p>Sensor inductivo de proximidad con alcance de 8mm, ideal para detección de metales</p>
+        <div class="product-price">$28.50 <span>IVA inc.</span></div>
+        <button class="btn-add-cart" onclick="addToCart(this)">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/>
+            <path d="M16 10a4 4 0 01-8 0"/>
+          </svg>
+          Añadir al carrito
+        </button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="product-img">
+        <img src="" alt="PLC Siemens S7-1200 CPU 1214C"/>
+        <div class="badges">
+          <span class="badge badge-featured">⭐ Destacado</span>
+        </div>
+      </div>
+      <div class="product-info">
+        <h3>PLC Siemens S7-1200 CPU 1214C</h3>
+        <p>Controlador lógico programable compacto con 14 entradas/salidas digitales</p>
+        <div class="product-price">$485.00 <span>IVA inc.</span></div>
+        <button class="btn-add-cart" onclick="addToCart(this)">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/>
+            <path d="M16 10a4 4 0 01-8 0"/>
+          </svg>
+          Añadir al carrito
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CATEGORÍAS ===== -->
+<section class="section section-alt" id="categorias">
+  <div class="section-header">
+    <div>
+      <h2>Explora por Categoría</h2>
+      <p>Encuentra rápidamente lo que necesitas</p>
+    </div>
+    <a href="#" class="btn-ver-todos">Ver todas →</a>
+  </div>
+
+  <div class="category-grid">
+    <a href="#" class="category-card">
+      <div class="category-img">
+        <img src="" alt="Servomotores"/>
+      </div>
+      <span>Servomotores</span>
+      <small>12 productos</small>
+    </a>
+    <a href="#" class="category-card">
+      <div class="category-img">
+        <img src="" alt="Sensores"/>
+      </div>
+      <span>Sensores</span>
+      <small>24 productos</small>
+    </a>
+    <a href="#" class="category-card active">
+      <div class="category-img">
+        <img src="" alt="Controladores PLC"/>
+      </div>
+      <span>Controladores PLC</span>
+      <small>8 productos</small>
+    </a>
+    <a href="#" class="category-card">
+      <div class="category-img">
+        <img src="" alt="Actuadores"/>
+      </div>
+      <span>Actuadores</span>
+      <small>15 productos</small>
+    </a>
+    <a href="#" class="category-card">
+      <div class="category-img">
+        <img src="" alt="Variadores de Frecuencia"/>
+      </div>
+      <span>Variadores de Frecuencia</span>
+      <small>10 productos</small>
+    </a>
+    <a href="#" class="category-card">
+      <div class="category-img">
+        <img src="" alt="Componentes Robóticos"/>
+      </div>
+      <span>Componentes Robóticos</span>
+      <small>18 productos</small>
+    </a>
+  </div>
+</section>
+
+<!-- ===== NUEVOS ARTÍCULOS ===== -->
+<section class="section" id="nuevos">
+  <div class="section-header">
+    <div>
+      <h2>Nuevos Artículos</h2>
+      <p>Las últimas incorporaciones a nuestro catálogo</p>
+    </div>
+    <a href="#" class="btn-ver-todos">Ver todos →</a>
+  </div>
+
+  <div class="product-grid">
+    <div class="product-card">
+      <div class="product-img">
+        <img src="" alt="Servomotor DC Brushless 1.5kW"/>
+        <div class="badges">
+          <span class="badge badge-new">Nuevo</span>
+          <span class="badge badge-featured">⭐ Destacado</span>
+        </div>
+      </div>
+      <div class="product-info">
+        <h3>Servomotor DC Brushless 1.5kW</h3>
+        <p>Motor sin escobillas de alta durabilidad para aplicaciones industriales</p>
+        <div class="product-price">$899.99 <span>IVA inc.</span></div>
+        <button class="btn-add-cart" onclick="addToCart(this)">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/>
+            <path d="M16 10a4 4 0 01-8 0"/>
+          </svg>
+          Añadir al carrito
+        </button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="product-img">
+        <img src="" alt="Sensor de Temperatura PT100"/>
+        <div class="badges">
+          <span class="badge badge-new">Nuevo</span>
+        </div>
+      </div>
+      <div class="product-info">
+        <h3>Sensor de Temperatura PT100</h3>
+        <p>Sensor de temperatura de alta precisión para ambientes industriales</p>
+        <div class="product-price">$45.99 <span>IVA inc.</span></div>
+        <button class="btn-add-cart" onclick="addToCart(this)">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/>
+            <path d="M16 10a4 4 0 01-8 0"/>
+          </svg>
+          Añadir al carrito
+        </button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="product-img">
+        <img src="" alt="Sensor de Presión 0-10 Bar"/>
+        <div class="badges">
+          <span class="badge badge-new">Nuevo</span>
+        </div>
+      </div>
+      <div class="product-info">
+        <h3>Sensor de Presión 0-10 Bar</h3>
+        <p>Transductor de presión con salida analógica para sistemas hidráulicos</p>
+        <div class="product-price">$125.00 <span>IVA inc.</span></div>
+        <button class="btn-add-cart" onclick="addToCart(this)">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/>
+            <path d="M16 10a4 4 0 01-8 0"/>
+          </svg>
+          Añadir al carrito
+        </button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="product-img">
+        <img src="" alt="Controlador Arduino Mega 2560"/>
+        <div class="badges">
+          <span class="badge badge-new">Nuevo</span>
+        </div>
+      </div>
+      <div class="product-info">
+        <h3>Controlador Arduino Mega 2560</h3>
+        <p>Microcontrolador de código abierto con 54 pines digitales de I/O</p>
+        <div class="product-price">$39.99 <span>IVA inc.</span></div>
+        <button class="btn-add-cart" onclick="addToCart(this)">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/>
+            <path d="M16 10a4 4 0 01-8 0"/>
+          </svg>
+          Añadir al carrito
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CTA BANNER ===== -->
+<section class="cta-banner">
+  <h2>¿Necesitas asesoramiento técnico?</h2>
+  <p>Nuestro equipo de expertos está aquí para ayudarte a encontrar la solución perfecta para tu proyecto.</p>
+  <a href="#" class="btn-cta">
+    Contactar con soporte
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+  </a>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <a href="#" class="logo">
+        <div class="logo-icon">M</div>
+        <div class="logo-text">
+          <strong>MecaTech</strong>
+          <span>Piezas Mecatrónicas</span>
+        </div>
+      </a>
+      <p>Tu proveedor de confianza en componentes mecatrónicos e industriales de alta calidad.</p>
+      <div class="social-links">
+        <a href="#">f</a>
+        <a href="#">𝕏</a>
+        <a href="#">in</a>
+        <a href="#">▶</a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4>Enlaces Rápidos</h4>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Productos</a></li>
+        <li><a href="#">Categorías</a></li>
+        <li><a href="#">Ayuda</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Categorías</h4>
+      <ul>
+        <li><a href="#">Servomotores</a></li>
+        <li><a href="#">Sensores</a></li>
+        <li><a href="#">Controladores PLC</a></li>
+        <li><a href="#">Robótica</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Contacto</h4>
+      <div class="footer-contact">
+        <div class="contact-item">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/>
+          </svg>
+          <span>Calle Industrial 123<br/>28001 Madrid, España</span>
+        </div>
+        <div class="contact-item">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.59 10.09 19.79 19.79 0 01.5 1.4 2 2 0 012.49-.01h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.18 6.18l1.38-1.38a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>
+          </svg>
+          <span>+34 900 123 456</span>
+        </div>
+        <div class="contact-item">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/>
+          </svg>
+          <span>info@mecatech.com</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    © 2026 MecaTech. Todos los derechos reservados.
+  </div>
+</footer>
+
+<!-- Chat button -->
+<button class="chat-btn" title="Ayuda">?</button>
+
+<script src="main.js"></script>
+</body>
+</html>
